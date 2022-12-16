@@ -83,7 +83,6 @@ document
   });
 
 const displaySeafoodCategories = categories => {
-  console.log(categories);
   const container = document.getElementById("container");
   let matchSeafood = categories.filter(category =>
     category.strCategory.toString().includes("Seafood")
