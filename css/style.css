@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: rgb(216, 75, 185);
+}
+.input-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.search-input {
+  padding: 10px 30px;
+  width: 500px;
+  height: 25px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  background-color: rgb(240, 239, 239);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(14, 11, 11);
+  font-family: 'Poppins', sans-serif;
+  margin-right: 25px;
+  background-color: blueviolet;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+.food-container {
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+.food-container img {
+  width: 300px;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: rgb(247, 243, 243);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.description {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(172, 39, 39);
+  font-size: 17px;
+  font-weight: 600;
+}
